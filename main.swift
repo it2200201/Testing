@@ -6,6 +6,7 @@ func evenOrOdd(_ number:Int) -> String {
     }
 }
 
+print("Even or Odd")
 print("Input integer: ")
 let integer = Int(readLine()!)
 print(evenOrOdd(Int(integer!)))
